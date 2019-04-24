@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="duPont Manual Facebook"
+        android:id="@+id/MF"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/CT"
+        android:layout_alignEnd="@+id/MAT"
+        android:layout_alignParentStart="true"
+        android:background="@color/common_google_signin_btn_text_dark_focused"
+        android:textColor="@color/common_google_signin_btn_text_dark_default" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="duPont Manual High Shool Twitter"
+        android:id="@+id/MHST"
+        android:layout_marginBottom="46dp"
+        android:layout_above="@+id/MAT"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:background="#ca0100"
+        android:textColor="@color/common_google_signin_btn_text_dark_default" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Manual Athletic Twitter"
+        android:id="@+id/MAT"
+        android:layout_marginBottom="50dp"
+        android:layout_above="@+id/CT"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:background="@color/common_google_signin_btn_text_dark_focused"
+        android:textColor="@color/common_google_signin_btn_text_dark_default" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Counselor&apos;s Twitter"
+        android:id="@+id/CT"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:background="@color/ManualCrimson"
+        android:textColor="@color/common_google_signin_btn_text_dark_default" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JCPS Twitter"
+        android:id="@+id/jcps"
+        android:layout_marginTop="52dp"
+        android:layout_below="@+id/MF"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:background="@color/ManualCrimson"
+        android:textColor="@color/common_google_signin_btn_text_dark_default" />
+
+</RelativeLayout>

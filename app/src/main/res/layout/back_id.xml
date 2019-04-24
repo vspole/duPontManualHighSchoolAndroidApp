@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#090909"
+        android:titleTextColor="@color/common_google_signin_btn_text_light_default"
+        app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    <Button
+        android:text="Add/Replace Back ID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/upload"
+        android:background="@color/ManualCrimson"
+        android:layout_marginTop="24dp"
+        android:layout_below="@+id/toolbar"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:layout_width="400dp"
+        android:id="@+id/imageView2"
+        android:layout_height="400dp"
+        android:layout_marginTop="17dp"
+        android:layout_below="@+id/upload"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>
